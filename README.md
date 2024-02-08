@@ -13,10 +13,10 @@ To achieve this objective, it was further broken down into the following 4 techn
 
 1. Web scraping of the LeetCode website.
 2. Perform exploratory data analysis to identify areas for improvement within a repository of 3000 problems.
-3. Developing a user-friendly dashboard to helps users in making data-driven decisions.
-4. Developing a LeetCode problems recommender system to help user in solving relevant problems.
+3. Develop a user-friendly dashboard to helps users in making data-driven decisions.
+4. Develop a LeetCode problems recommender system to help user in solving relevant problems.
 
-## Web scraping of the LeetCode websit
+## Web scraping of the LeetCode website
 
 ## Exploratory Data Analysis
 
