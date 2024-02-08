@@ -2,7 +2,7 @@
 
 **Problem Statement**
 
-> 1. On the LeetCode platform, users fall into two main categories: those passionate about solving data structures and algorithms problems and those aiming to ace technical job interviews. With a vast repository of 3000 problems, users face the challenge of selecting which problems to prioritize within limited time constraints.
+> 1. On the LeetCode platform, users fall into two main categories: those passionate about solving data structures and algorithms problems and those aiming to ace technical job interviews. With a vast repository of 3000 problems, users face the challenge of selecting which problems to prioritize.
 > 2. Identify areas for improvement within a repository of 3000 problems.
  
 **Main objective**
