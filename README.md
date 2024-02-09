@@ -51,7 +51,7 @@ To achieve this objective, it was further broken down into the following 4 techn
  
 This can be done in three section:
 
-### First section:
+#### First section:
 
 <center><a href="https://leetcode.com/problemset/all/"><img src="https://i.imgur.com/giQr7yk.png" style="box-shadow:rgba(52, 64, 77, 0.2) 0px 1px 5px 0px;border-radius:10px;" width=63%></a></center>
 
@@ -64,7 +64,7 @@ This can be done in three section:
     4. Acceptance
     5. Difficulty
 
-### Second section:
+#### Second section:
 
 <p float="left">
   <img src="https://i.imgur.com/5BwD2nb.png" width="30%" />
@@ -72,12 +72,8 @@ This can be done in three section:
   <img src="https://i.imgur.com/QETFefW.png" width="30%" />
 </p>
 
-
-
-
-
-  - I need to scrape 3000 web pages for 3000 problems.
-  - The details we are scraping from the second section are:
+ - I need to scrape 3000 web pages for 3000 problems.
+ - The details we are scraping from the second section are:
     1. Premium Status
     2. Title
     3. Problem Description 
@@ -90,7 +86,7 @@ This can be done in three section:
     10. Dislikes
     11. Similar Questions
 
-### Third section:
+#### Third section:
    - Combine both part of The DataFrame to get desired dataset.
 
 ## Exploratory Data Analysis
