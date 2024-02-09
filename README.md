@@ -67,9 +67,9 @@ This can be done in three section:
 ### Second section:
 
 <p float="left">
-  <img src="https://i.imgur.com/5BwD2nb.png" width="33%" />
-  <img src="https://i.imgur.com/ozWPDVj.png" width="33%" />
-  <img src="https://i.imgur.com/QETFefW.png" width="33%" />
+  <img src="https://i.imgur.com/5BwD2nb.png" width="30%" />
+  <img src="https://i.imgur.com/ozWPDVj.png" width="30%" />
+  <img src="https://i.imgur.com/QETFefW.png" width="30%" />
 </p>
 
 
