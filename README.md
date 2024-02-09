@@ -53,38 +53,24 @@ This can be done in three section:
 
 #### First section:
 
-<center><a href="https://leetcode.com/problemset/all/"><img src="https://i.imgur.com/giQr7yk.png" style="box-shadow:rgba(52, 64, 77, 0.2) 0px 1px 5px 0px;border-radius:10px;" width=63%></a></center>
+<img src="https://i.imgur.com/giQr7yk.png" style="box-shadow:rgba(52, 64, 77, 0.2) 0px 1px 5px 0px;border-radius:10px;" width=63%>
 
  - I need to scrape the problem set table that contains all the problems.
  - There are over 3000 problems, distributed over 60 pages.
  - The details i scraped from the first section are:
-    1. Title
-    2. Problem_URL
-    3. Solution_URL
-    4. Acceptance
-    5. Difficulty
+ - Title, Problem_URL, Solution_URL, Acceptance, Difficulty
 
 #### Second section:
 
 <p float="left">
-  <img src="https://i.imgur.com/5BwD2nb.png" width="30%" />
-  <img src="https://i.imgur.com/ozWPDVj.png" width="30%" />
-  <img src="https://i.imgur.com/QETFefW.png" width="30%" />
+<img src="https://i.imgur.com/5BwD2nb.png" style="box-shadow:rgba(52, 64, 77, 0.2) 0px 1px 5px 0px;border-radius:10px;" width=30%>
+<img src="https://i.imgur.com/ozWPDVj.png" style="box-shadow:rgba(52, 64, 77, 0.2) 0px 1px 5px 0px;border-radius:10px;" width=30%>
+<img src="https://i.imgur.com/QETFefW.png" style="box-shadow:rgba(52, 64, 77, 0.2) 0px 1px 5px 0px;border-radius:10px;" width=30%>
 </p>
 
  - I need to scrape 3000 web pages for 3000 problems.
  - The details we are scraping from the second section are:
-    1. Premium Status
-    2. Title
-    3. Problem Description 
-    4. Topic Tags
-    5. Accepted
-    6. Submission
-    7. Solution
-    8. Discussion Count
-    9. Likes
-    10. Dislikes
-    11. Similar Questions
+ - Premium Status, Title, Problem Description, Topic Tags, Accepted, Submission, Solution, Discussion Count, Likes, Dislikes, Similar Questions
 
 #### Third section:
    - Combine both part of The DataFrame to get desired dataset.
