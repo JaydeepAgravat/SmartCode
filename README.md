@@ -8,25 +8,22 @@
     </a>
 </center>
 
-LeetCode is an online platform for coding interview preparation. The service provides coding and algorithmic problems intended for users to practice coding. LeetCode has gained popularity among job seekers and coding enthusiasts as a resource for technical interviews and coding competitions.
-
-
+LeetCode is an online platform for coding interview preparation. The service provides coding and algorithmic problems intended for users to practice coding. LeetCode has gained popularity among job seekers and coding enthusiasts as a resource for technical interviews and coding competitions. There are 3000+ technical problems on LeetCode.
 
 **Problem Statement**
 
-> 1. On the LeetCode platform, users fall into two main categories: those passionate about solving data structures and algorithms problems and those aiming to ace technical job interviews. With a vast repository of 3000 problems, users face the challenge of selecting which problems to prioritize.
-> 2. Identify areas for improvement within a repository of 3000 problems.
+> 1. Identify areas for improvement within a repository of 3000 problems.
+> 2. On the LeetCode platform, users fall into two main categories: those who are passionate about coding and those who aim to ace technical job interviews, or it can be both. With a vast repository of 3000 problems, users face the challenge of selecting which problems to prioritize.
  
 **Main objective**
 
-> The main goal of this project is to assist users in making data-driven decisions and solving relevant problems
+> The main goal of this project is Identify areas for improvement within a repository of 3000 problems & to assist users in making data-driven decisions and solving relevant problems according to their needs.
 
-To achieve this objective, it was further broken down into the following 4 technical sub-objectives:
-
-1. Web scraping of the LeetCode website.
-2. Perform exploratory data analysis to identify areas for improvement within a repository of 3000 problems.
-3. Develop a user-friendly dashboard to helps users in making data-driven decisions.
-4. Develop a LeetCode problems recommender system to help user in solving relevant problems.
+ - To achieve this objective, it was further broken down into the following 4 technical sub-objectives:
+    - Web scraping of the LeetCode website.
+    - Perform exploratory data analysis to identify areas for improvement within a repository of 3000 problems.
+    - Develop a user-friendly dashboard to helps users in making data-driven decisions.
+    - Develop a LeetCode problems recommender system to help user in solving relevant problems.
 
 ## Web scraping of the LeetCode website
 
