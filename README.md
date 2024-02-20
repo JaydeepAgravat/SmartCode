@@ -19,8 +19,9 @@ LeetCode is an online platform for coding interview preparation. The service pro
 
 > The main goal of this project is Identify areas for improvement within a repository of 3000 problems & to assist users in making data-driven decisions and solving relevant problems according to their needs.
 
- - To achieve this objective, it was further broken down into the following 4 technical sub-objectives:
+ - To achieve this objective, it was further broken down into the following 5 technical sub-objectives:
     - Web scraping of the LeetCode website.
+    - Execute data preprocessing to ensure the data is appropriately prepared for analysis and aligned with the project's objectives.
     - Perform exploratory data analysis to identify areas for improvement within a repository of 3000 problems.
     - Develop a user-friendly dashboard to helps users in making data-driven decisions.
     - Develop a LeetCode problems recommender system to help user in solving relevant problems.
@@ -71,6 +72,35 @@ This can be done in three section:
 
 #### Third section:
    - Combine both part of The DataFrame to get desired dataset.
+     
+## Data Preprocessing
+
+- The set of operations performed on raw data to make it suitable for analysis.
+1. Handling Missing Values
+2. Feature Engineering
+3. Data Format Conversion and Data Type Conversion
+4. Column Rearrangement
+
+#### Handling Missing Values
+
+- `is_premium`: Handle the missing values in the is_premium column by replacing them with the boolean value True to accurately denote the premium status.
+- `topic_tags`: Fill the null values with the appropriate values, namely "JavaScript" and "pandas".
+- `similar_questions`: Fill in the null values for non-premium questions with an empty string, as there are no similar questions for those LeetCode problems.
+
+#### Feature Engineering
+  
+- `id`: Extracting the problem numbers (IDs) from the title, which can be useful for organizing and analyzing the data.
+- `page_number`: it denotes the specific page on the website where the LeetCode problem appears.
+- `no_similar_questions`: extracting a numerical feature from the similar_questions column that represents the number of similar questions no_similar_questions.
+
+#### Data Format Conversion and Data Type Conversion
+
+- Removing special characters like % and abbreviations like K and M to represent the values as numbers.
+- Changing the data type of the columns from object data type to float or int to make them compatible with numerical analysis.
+
+#### Column Rearrangement
+
+- This process involves changing the sequence of columns to make the DataFrame more organized, intuitive and suitable for analysis.
 
 ## Exploratory Data Analysis
 
