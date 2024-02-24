@@ -67,7 +67,7 @@ This can be done in three section:
 </p>
 
  - I need to scrape 3000 web pages for 3000 problems.
- - The details we are scraping from the second section are:
+ - The details i scraped from the second section are:
  - Premium Status, Title, Problem Description, Topic Tags, Accepted, Submission, Solution, Discussion Count, Likes, Dislikes, Similar Questions
 
 #### Third section:
@@ -90,8 +90,8 @@ This can be done in three section:
 #### Feature Engineering
   
 - `id`: Extracting the problem numbers (IDs) from the title, which can be useful for organizing and analyzing the data.
-- `page_number`: it denotes the specific page on the website where the LeetCode problem appears.
-- `no_similar_questions`: extracting a numerical feature from the similar_questions column that represents the number of similar questions no_similar_questions.
+- `page_number`: it denotes the specific page on the website where the LeetCode problem appear.
+- `no_similar_questions`: extracting a numerical feature from the similar_questions column that represents the number of similar questions.
 
 #### Data Format Conversion and Data Type Conversion
 
