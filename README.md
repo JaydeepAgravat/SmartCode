@@ -209,8 +209,8 @@ This can be done in three section:
 </p>
 
 9. **Number of Similar Questions**
-    - LeetCode's collection showcases diversity with **813** unique challenges having no suggested similar questions.
-    - Moderately frequent suggestions **1 to 3 suggestions : 551, 361, 220** indicate common links between challenges.
+    - LeetCode's collection showcases diversity with **37.6%** unique challenges having no suggested similar questions.
+    - Moderately frequent suggestions **1 to 3 suggestions : 25.5%, 16.7%, 10.2%** indicate common links between challenges.
     - As number of similar questions suggestions increase, frequency decreases, Highlighting that it's uncommon for problems to be strongly connected to many others.
 
 <p align="center">
@@ -219,7 +219,7 @@ This can be done in three section:
 
 10. **Accepted, Submission, Solution, Discussion Count, likes & Dislikes**
     - The distribution of the Accepted, Submission, Solution, Discussion Count, likes & Dislikes values follows a **log-normal distribution**.
-    - It suggests that a significant portion of problems may have relatively low values for these metrics, with a long tail extending towards higher values. 
+    - This means that most of the values are relatively small, but there are some very large values that occur infrequently. 
 
 <p align="center">
   <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/AcceptedSubmissionSolutionDiscussionCountLikesDislikes.png" width="60%">
