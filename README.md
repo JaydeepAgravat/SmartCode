@@ -104,6 +104,126 @@ This can be done in three section:
 
 ## Exploratory Data Analysis
 
+### Understanding the LeetCode Dataset ###
+
+- `Overview`
+
+    - The dataset I scraped from the LeetCode website provides information about various programming problems available on the platform. Each row in the dataset corresponds to a specific problem and includes details such as problem ID, premium status, title, problem description, topic tags, difficulty level, similar questions, acceptance rate, and more.
+
+- `Key Columns`
+
+    1. **id**: A unique identifier for each problem.
+    2. **page_number**: The specific page on the website where the LeetCode problem appears.
+    3. **is_premium**: Indicates whether the problem is available to premium LeetCode users.
+    4. **title**: The title of the problem.
+    5. **problem_description**: A detailed description of the problem.
+    6. **topic_tags**: Tags representing the topics associated with the problem.
+    7. **difficulty**: The difficulty level of the problem (Easy, Medium, Hard).
+    8. **similar_questions**: List of similar questions to the current problem.
+    9. **no_similar_questions**: The number of similar questions.
+    10. **acceptance**: Acceptance rate for the problem.
+    11. **accepted**: The number of submissions that have been accepted for the problem.
+    12. **submission**: The total number of submissions for the problem.
+    13. **solution**: The total number of solutions submit in the solution section for the problem.
+    14. **discussion_count**: The count of discussions related to the problem.
+    15. **likes**: The number of likes received for the problem.
+    16. **dislikes**: The number of dislikes received for the problem.
+    17. **problem_URL**: URL to the problem on LeetCode.
+    18. **solution_URL**: URL to the solution of the problem on LeetCode.
+
+### Initial Analysis ###
+
+1. **Dimensionality of the DataFrame**
+    - There are a total of 3,000 LeetCode problems.
+2. **Overview of Feature**
+    - 18 feature
+3. **Duplicate Values**
+    - 0 duplicate value
+4. **Missing Values**
+    - There is a lack of additional data available for 840 premium problems.
+    - This feature is available for all the problems : `id`, `is_premium`, `title`, `difficulty`, `acceptance`.
+
+### Univariate Analysis ###
+
+1. **Premium Status**
+    - Out of a total of 3000 LeetCode problems, the distribution reveals that:
+       - **72%** of problems are `non-premium`.
+       - **28%** of problems are `premium`.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/PremiumStatus.png" width="60%">
+</p>
+
+2. **Page Number**
+    - Page number ranges from 1 to 60, per page contains 50 problems, total 3000 problems.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/PageNumber.png" width="40%">
+</p>
+
+3. **Problem Title**
+    - Most of the problem titles contain both data structure names (e.g., `strings, arrays, subarray and binary trees`) and problem themes (e.g., `number, maximum, minimum, searching, counting, and summing`).
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/ProblemTitle.png" width="40%">
+</p>
+
+4. **Difficulty Level**
+    - There are **25%** `Easy` problems and **22%** `Hard` problems.
+    - The majority, **53%**, fall under the `Medium` problems.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/DifficultyLevel.png" width="60%">
+</p>
+
+5. **Acceptance Rate**
+    - The `Acceptance Rates` follow a **normal distribution**, It means the majority of the acceptance rates cluster around mean value.
+    - The typical acceptance rate is around **55%**, suggesting that about **55%** of submitted solutions are accepted on average.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/AcceptanceRate.png" width="60%">
+</p>
+
+6. **Problem Description**
+    - The problem descriptions mainly use words like `Example`, `Input`, `Output` and `Explanation`.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/ProblemDescription.png" width="40%">
+</p>
+
+7. **Topic Tags**
+    - There are 74 unique topic tag.
+    - Top 10 Most Common Topic Tags are `Array`, `String`, `Hash Table`, `Dynamic Programming`, `Math`, `Sorting`, `Greedy`, `Depth-First Search`, `Binary Search` and `Breadth-First Search`.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/TopicTags.png" width="60%">
+</p>
+
+8. **Similar Questions**
+    - `Two Sum` stands out with the highest similarity count of **11**, showcasing its widespread application in problem-solving.
+    - Several problems, including variations of `Stone Game`, `House Robber` and `Longest Increasing Subsequence` with similarity count **8 or 9**, possibly involve dynamic programming or game theory, highlighting versatile problem-solving approaches.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/SimilarQuestions.png" width="60%">
+</p>
+
+9. **Number of Similar Questions**
+    - LeetCode's collection showcases diversity with **813** unique challenges having no suggested similar questions.
+    - Moderately frequent suggestions **1 to 3 suggestions : 551, 361, 220** indicate common links between challenges.
+    - As number of similar questions suggestions increase, frequency decreases, Highlighting that it's uncommon for problems to be strongly connected to many others.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/NumberOfSimilarQuestions.png" width="60%">
+</p>
+
+10. **Accepted, Submission, Solution, Discussion Count, likes & Dislikes**
+    - The distribution of the Accepted, Submission, Solution, Discussion Count, likes & Dislikes values follows a **log-normal distribution**.
+    - It suggests that a significant portion of problems may have relatively low values for these metrics, with a long tail extending towards higher values. 
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/AcceptedSubmissionSolutionDiscussionCountLikesDislikes.png" width="60%">
+</p>
+
 ## Dashboard
 
 ## LeetCode Recommender System
