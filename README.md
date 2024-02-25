@@ -186,6 +186,7 @@ This can be done in three section:
 
 6. **Problem Description**
     - The problem descriptions mainly use words like `Example`, `Input`, `Output` and `Explanation`.
+    - it means problem description emphasizing clarity and provide examples.
 
 <p align="center">
   <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/ProblemDescription.png" width="40%">
