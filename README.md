@@ -219,7 +219,17 @@ This can be done in three section:
 
 10. **Accepted, Submission, Solution, Discussion Count, likes & Dislikes**
     - The distribution of the Accepted, Submission, Solution, Discussion Count, likes & Dislikes values follows a **log-normal distribution**.
-    - This means that most of the values are relatively small, but there are some very large values that occur infrequently. 
+    - This means that most of the values are relatively small, but there are some very large values that occur infrequently.
+    - **Accepted and Submission**:
+       - The median number of accepted and submission counts indicates the typical level of activity on the platform.
+       - Median values of **66,300** and **116,900** respectively suggest a moderate level of participation.
+    - **Solution**:
+       - The median solution count of **706** implies that most problems have several solutions provided by users.
+    - **Discussion Count**:
+       - The median discussion count of **12** suggests that discussions are relatively sparse compared to other metrics.
+       - This may indicate that users are more focused on solving problems rather than engaging in discussions.
+    - **Likes and Dislikes**:
+       - The median number of likes **1,100** is significantly higher than the median number of dislikes **132**.
 
 <p align="center">
   <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/AcceptedSubmissionSolutionDiscussionCountLikesDislikes.png" width="60%">
