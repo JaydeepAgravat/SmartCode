@@ -235,6 +235,74 @@ This can be done in three section:
   <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/AcceptedSubmissionSolutionDiscussionCountLikesDislikes.png" width="60%">
 </p>
 
+### Bivariate Analysis ###
+
+1. **Analysis of Premium and Non-Premium Problem Frequencies Across Pages**
+    - The number of premium and non-premium problems on each page is not the same.
+    - Pages 45 to 50 exclusively have premium problems.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b1.png" width="60%">
+</p>
+
+2. **Exploring the relation: Page Number and Highest Contribution by Topic Tag**
+    - The percentage of each topic tag's contribution varies from page to page, ranging from 11.27% to 26.51%.
+    - Most pages have the highest contribution from the topic tag 'Array', except for pages 3 and 53.
+    - Page 3's highest contribution comes from 'Binary Tree' (11.49%), while page 53's highest is 'Javascript' (19.59%).
+   
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b2.png" width="60%">
+</p>
+
+3. **Distribution of Difficulty Level in Premium & Non-Premium**
+    - In premium problems, 20% are easy, 56.2% are medium, and 23.8% are hard.
+    - In non-premium problems, 27.4% are easy, 51.2% are medium, and 21.4% are hard.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b3.png" width="60%">
+</p>
+
+4. **Distribution of Acceptance Rate in Premium and Non-Premium Problem**
+    - Premium problems have an average acceptance rate of 58.3%, compared to 53.55% for non-premium problems.
+    - Generally, premium problems have higher acceptance rates than non-premium ones.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b4.png" width="60%">
+</p>
+
+5. **Distribution of Acceptance Rate in Difficulty Level**
+    - Easy problems have the highest average acceptance rate (65.53%), followed by medium (54.69%) and hard (46.40%).
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b5.png" width="60%">
+</p>
+
+6. **Most Common Topic Tags in Difficulty Levels:**
+
+    - The top 5 most common topic tags across different difficulty levels are 'Array', 'String', 'Hash Table', 'Dynamic Programming', 'Math', 'Sorting', and 'Binary Search'.
+        - **Array**: Most seen in medium difficulty, then hard, and less in easy problems.
+        - **String**: Mostly in medium, then easy, and less in hard.
+        - **Hash Table**: Mostly in medium, then easy, less in hard.
+        - **Dynamic Programming**: Most in medium, increasing from easy to hard.
+        - **Math**: Frequently in medium, then easy, slightly less in hard.
+        - **Sorting**: Mainly in medium, then easy, less in hard.
+        - **Binary Search**: More in medium, then hard, less in easy.
+        
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b6.png" width="60%">
+</p>
+
+7. **Distribution of Accepted, Submission, Solution, Discussion Count, Likes, Dislikes in Difficulty Levels:**
+    - **Accepted Submissions**: 'Easy' problems have notably more accepted submissions than 'Medium' and 'Hard', indicating their simplicity.
+    - **Submission Activity**: Highest submission activity is for 'Easy' problems, then 'Medium', and least for 'Hard'.
+    - **Solution Submissions**: More solutions are submitted for 'Easy' problems compared to 'Medium' and 'Hard', reflecting users' willingness to share solutions.
+    - **Discussion Engagement**: Discussions are most active for 'Easy' problems, then 'Medium', and least for 'Hard'.
+    - **Likes and Dislikes**: 'Medium' problems receive the most likes, while 'Easy' problems get the most dislikes, suggesting 'Medium' problems are more engaging.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b7.png" width="60%">
+</p>
+
 ## Dashboard
 
 ## LeetCode Recommender System
