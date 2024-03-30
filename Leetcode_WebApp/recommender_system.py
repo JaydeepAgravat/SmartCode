@@ -1,6 +1,10 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from pathlib import Path
+
+current_directory = Path(__file__).resolve().parent
+csv_file_path = current_directory / "preprocessed_data.csv"
 
 # Constants
 ACCEPTANCE_WEIGHT = 0.3
@@ -55,7 +59,7 @@ class ProblemRecommender:
         return df.sort_values(by='popularity_score', ascending=False).head(n)
 
 def recommender_system(problem_id=1):
-    df = pd.read_csv('preprocessed_data.csv')
+    df = pd.read_csv(csv_file_path)
     df['topic_tags'] = df['topic_tags'].str.replace("'", "")
 
     text_processor = TextProcessor(df['problem_description'])
