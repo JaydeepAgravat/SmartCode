@@ -4,6 +4,10 @@ import plotly.graph_objects as go
 import plotly.express as px
 from recommender_system import recommender_system
 from analytics import *
+from pathlib import Path
+
+current_directory = Path(__file__).resolve().parent
+csv_file_path = current_directory / "preprocessed_data.csv"
 
 def main_page():
     st.title('LeetCode: Navigator and Recommender System')
@@ -25,14 +29,14 @@ def recommender_system_ui():
     if not results_df.empty:
         for index, row in results_df.iterrows():
             difficulty_color = get_difficulty_color(row['difficulty'])
-            card_html = f"""
+            card_html = f'''
             <div style="border-radius: 10px; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
                 <h2 style="color: {difficulty_color}; font-size: 20px;">{row['title']}</h2>
                 <p style="margin-top: -10px; margin-bottom: 10px;">Difficulty: <span style="color: {difficulty_color}; font-weight: bold;">{row['difficulty']}</span></p>
                 <p style="margin-top: -10px; margin-bottom: 10px;">Topic Tags: {row['topic_tags']}</p>
                 <a href="{row['problem_URL']}" target="_blank" style="text-decoration: none; color: #0078ff; font-size: 14px;">View Problem</a>
             </div>
-            """
+            '''
             st.markdown(card_html, unsafe_allow_html=True)
     else:
         st.write("No recommendations found.")
@@ -40,7 +44,7 @@ def recommender_system_ui():
 
 def analytics_ui():
     st.title('LeetCode Analytics Dashboard')
-    df = pd.read_csv('preprocessed_data.csv')
+    df = pd.read_csv(csv_file_path)
 
     # Select box options
     options = ['All', 'Premium Status Pie Chart', 'Difficulty Pie Chart',
