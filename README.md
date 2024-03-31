@@ -303,6 +303,15 @@ This can be done in three section:
   <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/b7.png" width="60%">
 </p>
 
+### Multivariate Analysis ###
+
+1. **Exploring Topic Relevance**
+   - The top 9 topics with the lowest positive reaction percentages reveal that even niche or complex areas like "Interactive", "Concurrency", and "Randomized" receive relatively high engagement.
+
+<p align="center">
+  <img src="https://github.com/JaydeepAgravat/SmartCode/blob/main/Imgs/ExploringTopic%20Relevance.png" width="60%">
+</p>
+
 ## Dashboard
 
 ## LeetCode Recommender System
