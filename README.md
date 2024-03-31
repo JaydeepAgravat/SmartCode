@@ -66,7 +66,7 @@ This can be done in three section:
 <img src="https://i.imgur.com/QETFefW.png" style="box-shadow:rgba(52, 64, 77, 0.2) 0px 1px 5px 0px;border-radius:10px;" width=30%>
 </p>
 
- - I need to scrape 3000 web pages for 3000 problems.
+ - I need to scrape 60 web pages for 3000 problems.
  - The details i scraped from the second section are:
  - Premium Status, Title, Problem Description, Topic Tags, Accepted, Submission, Solution, Discussion Count, Likes, Dislikes, Similar Questions
 
